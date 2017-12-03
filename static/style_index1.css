@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    padding-bottom: 5px;
+}
+
+#container{
+    width: 850px;
+    padding: 30px;
+    /* background-color: green; */
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#score{
+    border: 1px solid black;
+    padding: 2px 4px;
+}
+
+#header{
+    margin: 0px 3px 20px 10px;
+    /* background-color: pink; */
+}
+
+#farm, #cave, #house, #casino{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+}
+
+#places{
+    margin-left: 10px;
+}
+
+#par{
+    margin: 20px 3px 0px 10px;
+}
+
+#activities{
+    margin: 0px 3px 0px 10px;
+    width: 820px;
+    height: 100px;
+    /* background-color: blue; */
+    border: 1px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 2px;
+}
+
+.win{
+    color: green;
+}
+
+.lost{
+    color: red;
+}
+
