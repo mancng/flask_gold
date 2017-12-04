@@ -16,11 +16,9 @@ def reset():
 
 @app.route('/process_money', methods=['POST'])
 def process():
-    if session.get('score') is None:
+    if not 'score' in session:
         session['score'] = 0
     else:
-        # session['score'] = 0
-        # session['act'] = ''
         if request.form['building'] == 'farm':
             new_random = random.randrange(10,20)
             score = int(session.get('score'))
